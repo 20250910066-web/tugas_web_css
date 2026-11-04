@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Keluarga Saya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff8e7;
+            color: #444;
+        }
+
+        header {
+            background: #795548;
+            color: white;
+            text-align: center;
+            padding: 35px; 
+            
+        }
+
+        nav {
+            background: #a1887f;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .pembuka {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #795548;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .anggota {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ddd;
+        }
+
+        .card img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 4px solid #a1887f;
+        }
+
+        .card h3 {
+            color: #795548;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #795548;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PROFIL KELUARGA SAYA</h1>
+        <p>Keluarga adalah tempat terbaik untuk pulang</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#anggota">Anggota Keluarga</a>
+        <a href="#tentang">Tentang Keluarga</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="pembuka" id="beranda">
+            <h2>Selamat Datang</h2>
+            <p>
+                Ini adalah website profil keluarga saya.
+                Website ini berisi informasi tentang anggota
+                keluarga dan kehidupan keluarga saya.
+            </p>
+        </section>
+
+        <section id="anggota">
+            <h2>Anggota Keluarga</h2>
+
+            <div class="anggota">
+
+                <div class="card">
+                    <img src="c:\Users\User\Downloads\a46ede95-7c39-4c98-a1ff-f6f75da2ed52.jpg" alt="c:\Users\User\Downloads\a46ede95-7c39-4c98-a1ff-f6f75da2ed52.jpg">
+                    <h3>Ibu</h3>
+                    <p>Nama: Juju</p>
+                    <p>Pekerjaan: Pensiunan</p>
+                </div>
+
+                <div class="card">
+                    <img src="c:\Users\User\Downloads\15a12e71-965e-44b3-a0bb-5a4def1755cc.jpg" alt="c:\Users\User\Downloads\15a12e71-965e-44b3-a0bb-5a4def1755cc.jpg">
+                    <h3>Anak</h3>
+                    <p>Nama: Rafly Juliandra</p>
+                    <p>Status: Mahasiswa</p>
+                </div>
+
+                <div class="card">
+                    <img src="c:\Users\User\Downloads\WhatsApp Image 2026-10-23 at 03.02.34.jpeg" alt="c:\Users\User\Downloads\WhatsApp Image 2026-10-23 at 03.02.34.jpeg">
+                    <h3>Saudara</h3>
+                    <p>Nama: Dhika</p>
+                    <p>Status: Pekerja Kantoran</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="pembuka" id="tentang" style="margin-top:25px;">
+            <h2>Tentang Keluarga</h2>
+            <p>
+                Keluarga merupakan bagian penting dalam kehidupan.
+                Keluarga selalu memberikan dukungan, kasih sayang,
+                dan semangat dalam menjalani kehidupan sehari-hari.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Profil Keluarga Saya</p>
+    </footer>
+
+</body>
+</html>
